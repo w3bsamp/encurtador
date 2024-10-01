@@ -32,3 +32,55 @@ body *{
     line-height: 24px;
     margin-top: 8px;
 }
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+}
+
+ul li a{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    transition: 0.5s;
+}
+
+ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid white;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+.social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.social a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+footer{
+    padding: 24px 0;
+    text-align: center;
+    font-size: 14px;
+}
